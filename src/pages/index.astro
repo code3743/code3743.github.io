@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Porfolio de Jota - Desarrollador con más de 2 años de experiencia">
+	<main class="mx-auto container text-center">
+		<header class="mt-16">
+			<picture class="">
+				<img src="https://placeholder.com/100x100" alt="" class="rounded-full w-24 h-24 mx-auto">
+			</picture>
+			<h1 class="font-bold text-xl mt-4">Jota López</h1>
+			<p class="text-base my-3" >
+				+ 2 años de experiencia. Desarrollador de Aplicaciones Móviles y Estudiante de Ingeniería de Sistemas. Aunque mi pasión principal es el desarrollo móvil, también disfruto realizando web scraping para crear APIs por diversión. Además, he trabajado en el backend con Node.js. Preste servicio militar y me encanta estar en constante aprendizaje.
+			</p>
+		</header>
+			<ul class="flex flex-wrap justify-center ">
+				{ [1,2,3,4,5].map((item) => (
+					<li class="w-10 h-10 m-1">
+						<img src="https://placeholder.com/100x100" alt="" class="rounded-full  hover:scale-105">
+					</li>
+				))}
+			</ul>
+        <section class="mt-16">
+                <h2  class="text-left font-bold text-lg">Experiencia laboral</h2>
+			
+  
+		</section>
+	</main>
+</Layout>
+
