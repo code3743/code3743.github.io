@@ -31,6 +31,55 @@ const curriculum: Curriculum = {
     photo: 'https://avatars.githubusercontent.com/u/102370043?v=4',
     experiences: [
         {
+            company: 'ThreeCode',
+            role: 'Desarrollador principal',
+            date: 'Actualidad',
+            description: 'Casa de software especializada en el desarrollo de aplicaciones móviles y web. Desarrollo de aplicaciones móviles para clientes de diferentes sectores, como el sector educativo, el sector de la salud y el sector de la construcción.',
+            technologies: [
+                {
+                    name: 'Dart',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
+                },
+                {
+                    name: 'Flutter',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
+                },
+                {
+                    name: 'JavaScript',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
+                },
+                {
+                    name: 'Node.js',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg'
+                },
+                {
+                    name: 'Firebase',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg'
+                },
+                {
+                    name: 'MongoDB',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg'
+                },
+                {
+                    name: 'PostgreSQL',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg'
+                },
+                {
+                    name: 'Google Cloud',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg'
+                },
+                {
+                    name: 'Git',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg'
+                },
+                {
+                    name: 'GitHub',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg'
+                }
+
+            ],
+        },
+        {
             company: 'Integra',
             role: 'Desarrollador mobile',
             date: '2023',
