@@ -10,7 +10,7 @@ const curriculum: Curriculum = {
         {
             name: 'LinkedIn',
             icon: '/brand-linkedin.svg',
-            url: 'linkedin.com/in/jota-lópez-ramirez-899604231'
+            url: 'https://linkedin.com/in/jota-lópez-ramirez-899604231'
         },
         {
             name: 'GitHub',
