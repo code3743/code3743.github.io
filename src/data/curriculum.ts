@@ -5,12 +5,12 @@ const curriculum: Curriculum = {
         {
             name: 'Instagram',
             icon: '/brand-instagram.svg',
-            url: 'https://www.instagram.com/jota.lopez_/'        
+            url: 'https://www.instagram.com/jotalopezr/'        
         },
         {
             name: 'LinkedIn',
             icon: '/brand-linkedin.svg',
-            url: 'https://www.linkedin.com/in/jota-lopez/'
+            url: 'linkedin.com/in/jota-lópez-ramirez-899604231'
         },
         {
             name: 'GitHub',
@@ -25,7 +25,7 @@ const curriculum: Curriculum = {
         {
             name: 'Twitter',
             icon: '/brand-x.svg',
-            url: 'https://twitter.com'
+            url: 'https://x.com/Jota3743'
         }
     ],
     photo: 'https://avatars.githubusercontent.com/u/102370043?v=4',
