@@ -1,24 +1,28 @@
 ---
 interface Props {
 	title: string;
+	description: string;
+	author: string;
+	keywords: string;
 }
 
-const { title } = Astro.props;
+const { title, description, author, keywords } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="es">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Contrata a jota para crear tu aplicación móvil, materializa tus ideas." />
+		<meta name="description" content={description}/>
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="author" content="Jota López" />
-		<meta name="keywords" content="Desarrollador, Aplicaciones Móviles, Backend, Web Scraping, APIs, Node.js" />
+		<meta name="author" content={author} />
+		<meta name="keywords" content={keywords}/>
 		<title>{title}</title>
 	</head>
-	<body class="mx-auto container ">
+	<body class="w-full h-full">
+		<div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"><div class="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"></div></div>
 		<slot />
 	</body>
 </html>

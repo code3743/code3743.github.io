@@ -9,9 +9,12 @@ const {name, description, experiences, photo,projects, socialMedia } = curriculu
 ---
 <Layout
   title="Porfolio de Jota - Desarrollador con más de 2 años de experiencia"
+  description="Soy Jota López, un desarrollador web con más de 2 años de experiencia. En mi porfolio podrás ver mis proyectos y experiencia laboral."
+  author="Jota López"
+  keywords="Desarrollador, Aplicaciones Móviles, Backend, Web Scraping, APIs, Node.js, Flutter"
 >
-	<Header {...{name, description, photo, socialMedia}}/>
-  <main class="text-center">
+	<Header  {...{name, description, photo, socialMedia}}/>
+  <main class="mx-auto container">
 	<Experience {experiences} />
   <Projects {projects} />
   </main>

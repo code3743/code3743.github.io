@@ -16,7 +16,7 @@ const { project }  = Astro.props;
       {project.name}
     </h3>
     <p class="mt-2  text-sm text-gray-700">{project.description}</p>
-    <div class="flex mt-2">
+    <div class="flex mt-2 justify-center items-center">
         <ul class="flex flex-wrap justify-center">
           {
             project.technologies.map((technologies) => (
@@ -31,6 +31,14 @@ const { project }  = Astro.props;
             ))
           }
         </ul>
+        <a
+        href={project.code}
+        target="_blank"
+        class="ml-auto mt-4 text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm p-2 text-center inline-flex items-center  me-2 mb-2"
+      >
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" loading="lazy"  alt="Icono github" class="mr-4 w-5 h-5">
+        Código
+      </a>
       </div>
   </div>
 
