@@ -1,0 +1,37 @@
+---
+interface Props {
+  name: string;
+  description: string;
+  photo: string;
+  socialMedia: SocialMedia[];
+}
+const { name, description, photo, socialMedia } = Astro.props;
+---
+
+<header class="mt-16 text-center">
+  <picture class="w-24">
+    <img
+      src={photo}
+      alt="Imagen de perfil"
+      class="rounded-full w-24 h-24 mx-auto"
+    />
+  </picture>
+  <h1 class="font-bold text-xl mt-4">{name}</h1>
+  <p class="text-base my-3">{description}</p>
+  <ul class="flex flex-wrap justify-center">
+    {
+      socialMedia.map((socialMedia) => (  
+        <li class="w-10 h-10 m-1">
+          <a href={socialMedia.url}>
+            <img
+              src={socialMedia.icon}
+              alt={socialMedia.name}
+              loading="lazy"
+              class="rounded-full scale-110  hover:scale-125"
+            />
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</header>

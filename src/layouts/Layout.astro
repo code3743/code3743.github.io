@@ -14,9 +14,18 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="author" content="Jota López" />
+		<meta name="keywords" content="Desarrollador, Aplicaciones Móviles, Backend, Web Scraping, APIs, Node.js" />
 		<title>{title}</title>
 	</head>
-	<body>
+	<body class="mx-auto container ">
 		<slot />
 	</body>
 </html>
+
+<style is:global>
+	 html {
+        font-family: "Onest Variable", system-ui, sans-serif;
+        scroll-behavior: smooth;
+      }
+</style>
