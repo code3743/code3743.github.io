@@ -4,9 +4,10 @@ interface Props {
 	description: string;
 	author: string;
 	keywords: string;
+	image?: string;
 }
 
-const { title, description, author, keywords } = Astro.props;
+const { title, description, author, keywords, image } = Astro.props;
 ---
 
 <!doctype html>
@@ -19,6 +20,7 @@ const { title, description, author, keywords } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<meta name="author" content={author} />
 		<meta name="keywords" content={keywords}/>
+		{image && <meta property="og:image" content={image} />}
 		<title>{title}</title>
 	</head>
 	<body class="w-full h-full">
