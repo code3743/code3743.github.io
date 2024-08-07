@@ -51,6 +51,16 @@ Este comando generará una versión optimizada del sitio web en el directorio `.
 ## Incluir assets
 para incluir iconos de redes sociales y portadas de los proyetos, debes ubicar los archivos en la carpeta `public` y referenciarlos en el archivo `./src/data/curriculum.ts` en la sección de `social` y `projects` respectivamente.
 
+## Antes de subir a producción
+Antes de subir tu portafolio a producción, asegúrate de cambiar el valor de `site` en el archivo `./astro.config.mjs` con la URL de tu sitio web.
+
+```javascript
+
+    export default defineConfig({
+        site: 'https://code3743.github.io', // Cambia esta URL con la URL de tu sitio web o elimina esta línea 
+        integrations: [tailwind()]
+    });
+```
 
 ## Inspiración
 
