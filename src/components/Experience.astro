@@ -1,0 +1,16 @@
+---
+interface Props {
+    experiences: Experience[]
+}
+import ExperienceItem from './ExperienceItem.astro'
+const { experiences } = Astro.props
+---
+
+<section class="mt-16">
+    <h2 class="text-left font-bold text-lg">Experiencia laboral</h2>
+    {
+        experiences.map((experience) => (
+            <ExperienceItem {experience} />
+        ))
+    }
+</section>

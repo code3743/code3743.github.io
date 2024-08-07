@@ -1,0 +1,41 @@
+---
+interface Props {
+  experience: Experience;
+}
+const { experience } = Astro.props;
+---
+
+<article class="text-left mt-6 sm:ml-5">
+  <h3 class="font-bold text-base">{experience.role}</h3>
+  <p class="text-sm">{experience.company}</p>
+  <p class="text-xs text-gray-500">{experience.date}</p>
+  <p class="text-sm mt-1 text-gray-700">{experience.description}</p>
+
+  <div class="flex my-1">
+    <ul class="flex flex-wrap justify-center">
+      {
+        experience.technologies.map((technologies) => (
+          <li class="w-6 h-6 m-1">
+            <img
+              src={technologies.icon}
+              alt={technologies.name}
+              loading="lazy"
+              class="hover:scale-105"
+            />
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+  {
+    experience.url && (
+      <a
+        href={experience.url}
+        target="_blank"
+        class="mt-4 text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2 text-center inline-flex items-center  me-2 mb-2"
+      >
+        Visitar
+      </a>
+    )
+  }
+</article>
