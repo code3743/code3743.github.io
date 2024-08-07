@@ -1,0 +1,37 @@
+---
+interface Props {
+    project: Project
+}
+const { project }  = Astro.props;
+---
+<article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0 mt-6 items-center">
+<div class="w-full md:w-1/2">
+    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+      <img alt="Imagen descriptiva del proyecto" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={project.image} />
+    </div>
+</div>
+
+  <div class="w-full md:w-1/2 md:max-w-lg">
+    <h3 class="text-xl font-bold text-gray-80">
+      {project.name}
+    </h3>
+    <p class="mt-2  text-sm text-gray-700">{project.description}</p>
+    <div class="flex mt-2">
+        <ul class="flex flex-wrap justify-center">
+          {
+            project.technologies.map((technologies) => (
+              <li class="w-6 h-6 m-1">
+                <img
+                  src={technologies.icon}
+                  alt={technologies.name}
+                  loading="lazy"
+                  class="hover:scale-105"
+                />
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+  </div>
+
+</article>

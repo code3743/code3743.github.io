@@ -1,0 +1,17 @@
+---
+import ProjectItem from './ProjectItem.astro';
+
+interface Props {
+    projects: Project[]
+}
+const { projects } = Astro.props;
+---
+
+<section class="mt-16">
+    <h2 class="text-left font-bold text-lg">Proyectos</h2>
+    {
+        projects.map((project) => (
+            <ProjectItem {project} />
+        ))
+    }
+</section>
