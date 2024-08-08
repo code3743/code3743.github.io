@@ -57,14 +57,14 @@ Antes de subir tu portafolio a producción, asegúrate de cambiar el valor de `s
 ```javascript
 
     export default defineConfig({
-        site: 'https://code3743.github.io', // Cambia esta URL con la URL de tu sitio web o elimina esta línea 
+        site: 'https://code3743.github.io', // Cambia esta URL con la URL de tu sitio web
         integrations: [tailwind()]
     });
 ```
 
 ## Inspiración
 
-Este proyecto ha sido inspirado por el trabajo de **midudev**. Puedes encontrar más información sobre su trabajo en [github.com/midudev](https://github.com/miduve).
+Este proyecto ha sido inspirado por el trabajo de **midudev**. Puedes encontrar más información sobre su trabajo en [github.com/midudev](https://github.com/midudev/porfolio.dev).
 
 Espero que esta guía te ayude a clonar y utilizar este repositorio para editar tu propio portafolio. ¡Diviértete personalizándolo!
 
