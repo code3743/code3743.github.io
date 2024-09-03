@@ -32,7 +32,7 @@ const curriculum: Curriculum = {
     experiences: [
         {
             company: 'ThreeCode',
-            role: 'Desarrollador principal',
+            role: 'Desarrollador',
             date: 'Actualidad',
             description: 'Casa de software especializada en el desarrollo de aplicaciones móviles y web. Desarrollo de aplicaciones móviles para clientes de diferentes sectores, como el sector educativo, el sector de la salud y el sector de la construcción.',
             technologies: [
