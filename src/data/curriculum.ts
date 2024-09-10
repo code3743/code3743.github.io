@@ -183,6 +183,22 @@ const curriculum: Curriculum = {
                 }
             ],
             code: 'https://github.com/code3743/univalle_app'
+        },
+        {
+            name: "Social Scraper",
+            description: "Social Scraper es una aplicación de consola Node.js que aprovecha Playwright para extraer datos de varias plataformas de redes sociales.",
+            image: "/social_scraper_project.webp",
+            technologies: [
+                {
+                    name: 'Node.js',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg'
+                },
+                {
+                    name: 'Playwright',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/playwright/playwright-original.svg'
+                }
+            ],
+            code: 'https://github.com/code3743/social-scraper'
         }
     ]
 }
