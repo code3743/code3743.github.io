@@ -1,6 +1,6 @@
 const curriculum: Curriculum = {
     name: 'Jota López',
-    description: '+2 años de experiencia. Desarrollador de Aplicaciones Móviles y Estudiante de Ingeniería de Sistemas. Aunque mi pasión principal es el desarrollo móvil, también disfruto realizando web scraping para crear APIs por diversión. Además, he trabajado en el backend con Node.js. Preste servicio militar y me encanta estar en constante aprendizaje.',
+    description: '+2 años de experiencia. Desarrollador de Aplicaciones Móviles y Estudiante de Ingeniería de Sistemas. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y realizo web scraping, Además de programar, también presté servicio militar, una experiencia que me enseñó disciplina y trabajo en equipo.',
     socialMedia: [
         {
             name: 'Instagram',
@@ -33,8 +33,8 @@ const curriculum: Curriculum = {
         {
             company: 'ThreeCode',
             role: 'Desarrollador',
-            date: 'Actualidad',
-            description: 'Casa de software especializada en el desarrollo de aplicaciones móviles y web. Desarrollo de aplicaciones móviles para clientes de diferentes sectores, como el sector educativo, el sector de la salud y el sector de la construcción.',
+            date: 'Octubre 2024',
+            description: 'Desarrollo de aplicaciones móviles y web para diferentes sectores, integración de servicios de terceros y automatización de recolección de datos.',
             technologies: [
                 {
                     name: 'Dart',
