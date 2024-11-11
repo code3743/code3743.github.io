@@ -6,6 +6,7 @@ interface Props {
   socialMedia: SocialMedia[];
 }
 const { name, description, photo, socialMedia } = Astro.props;
+const formattedDescription = description.split('*')
 ---
 
 <header class="mx-auto container mt-16 text-center">
@@ -17,7 +18,12 @@ const { name, description, photo, socialMedia } = Astro.props;
     />
   </picture>
   <h1 class="font-bold text-xl mt-4">{name}</h1>
-  <p class="text-base my-3">{description}</p>
+  <p class="text-base my-3">{formattedDescription.map(
+    (text, index) => {
+      if(index % 2) return <strong>{text}</strong>
+      return text
+    }
+  )   }</p>
   <ul class="flex flex-wrap justify-center">
     {
       socialMedia.map((socialMedia) => (  
@@ -35,3 +41,10 @@ const { name, description, photo, socialMedia } = Astro.props;
     }
   </ul>
 </header>
+
+<style>
+  strong {
+    color: #3b82f6;
+    font-weight: 600;
+  }
+</style>
