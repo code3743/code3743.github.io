@@ -1,7 +1,7 @@
 {
   "name": "code3743.github.io",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
-    "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.15.2",
+    "@astrojs/tailwind": "^5.1.2",
+    "astro": "^4.16.10",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4"
   }

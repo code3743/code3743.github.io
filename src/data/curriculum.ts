@@ -1,6 +1,6 @@
 const curriculum: Curriculum = {
     name: 'Jota López',
-    description: '+2 años de experiencia. Desarrollador de Aplicaciones Móviles y Estudiante de Ingeniería de Sistemas. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y realizo web scraping, Además de programar, también presté servicio militar, una experiencia que me enseñó disciplina y trabajo en equipo.',
+    description: '+2 años de experiencia. *Desarrollador de Aplicaciones Móviles y Estudiante de Ingeniería de Sistemas*. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y el web scraping, Además de programar, también presté servicio *militar*, una experiencia que me enseñó *disciplina y trabajo en equipo.*',
     socialMedia: [
         {
             name: 'Instagram',
