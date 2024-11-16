@@ -107,7 +107,7 @@ const curriculum: Curriculum = {
             company: 'SINERGY',
             role: 'Mobile Developer',
             date: 'feb. 2024 - sept. 2024',
-            description: 'Desarrollo de una aplicación móvil para un proyecto de cuidado del rio Dagua, la aplicación permite a los usuarios reportar problemas ambientales, muestra información sobre el rio y permite a los usuarios ver los reportes.',
+            description: 'Desarrollo y mantenimiento de una aplicación móvil para la gestión de proyectos de construcción, la aplicación permite a los usuarios crear y gestionar proyectos, asignar tareas y ver el progreso de los proyectos.',
             technologies: [
                 {
                     name: 'Dart',
