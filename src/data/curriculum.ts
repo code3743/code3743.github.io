@@ -47,8 +47,8 @@ const curriculum: Curriculum = {
             ]
         },
         {
-            company: 'Ingeniero de software',
-            role: 'Desarrollador',
+            company: 'ThreeCode',
+            role: 'Ingeniero de software',
             date: 'abr. 2024 - oct. 2024',
             description: 'Desarrollo de aplicaciones móviles y web para diferentes sectores, integración de servicios de terceros y automatización de recolección de datos',
             technologies: [
