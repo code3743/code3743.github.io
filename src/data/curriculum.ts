@@ -1,6 +1,6 @@
 const curriculum: Curriculum = {
     name: 'Jota López',
-    description: '+2 años de experiencia. *Desarrollador de Aplicaciones Móviles y Estudiante de Ingeniería de Sistemas*. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y el web scraping, Además de programar, también presté servicio *militar*, una experiencia que me enseñó *disciplina y trabajo en equipo.*',
+    description: '+3 años de experiencia. *Desarrollador de Aplicaciones Móviles y Estudiante de Ingeniería de Sistemas*. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y el web scraping, Además de programar, también presté servicio *militar*, una experiencia que me enseñó *disciplina y trabajo en equipo.*',
     socialMedia: [
         {
             name: 'Instagram',
@@ -31,10 +31,26 @@ const curriculum: Curriculum = {
     photo: 'https://avatars.githubusercontent.com/u/102370043?v=4',
     experiences: [
         {
-            company: 'ThreeCode',
+            company: 'inteia',
+            role: 'Ingeniero Frontend Mobile',
+            date: 'actualidad',
+            description: 'Desarrollo de aplicaciones móviles, pruebas unitarias y de integración.',
+            technologies: [
+                {
+                    name: 'Dart',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
+                },
+                {
+                    name : 'Flutter',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
+                }
+            ]
+        },
+        {
+            company: 'Ingeniero de software',
             role: 'Desarrollador',
-            date: 'Octubre 2024',
-            description: 'Desarrollo de aplicaciones móviles y web para diferentes sectores, integración de servicios de terceros y automatización de recolección de datos.',
+            date: 'abr. 2024 - oct. 2024',
+            description: 'Desarrollo de aplicaciones móviles y web para diferentes sectores, integración de servicios de terceros y automatización de recolección de datos',
             technologies: [
                 {
                     name: 'Dart',
@@ -47,6 +63,10 @@ const curriculum: Curriculum = {
                 {
                     name: 'JavaScript',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
+                },
+                {
+                    name: 'TypeScript',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'
                 },
                 {
                     name: 'Node.js',
@@ -75,16 +95,52 @@ const curriculum: Curriculum = {
                 {
                     name: 'GitHub',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg'
+                },
+                {
+                    name: 'Azure DevOps',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/azuredevops/azuredevops-original.svg'
                 }
 
             ],
         },
         {
-            company: 'Integra',
-            role: 'Desarrollador mobile',
-            date: '2023',
+            company: 'SINERGY',
+            role: 'Mobile Developer',
+            date: 'feb. 2024 - sept. 2024',
             description: 'Desarrollo de una aplicación móvil para un proyecto de cuidado del rio Dagua, la aplicación permite a los usuarios reportar problemas ambientales, muestra información sobre el rio y permite a los usuarios ver los reportes.',
             technologies: [
+                {
+                    name: 'Dart',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
+                },
+                {
+                    name: 'Flutter',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
+                },
+                {
+                    name: 'Kotlin',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg'
+                },
+                {
+                    name: 'Swift',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg'
+                },
+                {
+                    name: 'Firebase',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg'
+                }
+            ],
+        },
+        {
+            company: 'Integra Comunicaciones',
+            role: 'Mobile Developer',
+            date: 'sept. 2023 - may. 2024',
+            description: 'Desarrollo de una aplicación móvil para la veveduría del Rio Dagua, la aplicación permite a los usuarios reportar problemas ambientales, muestra información sobre el rio y permite a los usuarios ver los reportes.',
+            technologies: [
+                {
+                    name: 'Dart',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
+                },
                 {
                     name: 'Flutter',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
@@ -102,14 +158,18 @@ const curriculum: Curriculum = {
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/astro/astro-original.svg'
                 }
             ],
-            url: 'https://play.google.com/store/apps/details?id=app.miriodagua.mi_rio_dagua&hl=es'
+             url: 'https://play.google.com/store/apps/details?id=app.miriodagua.mi_rio_dagua&hl=es'
         },
         {
             company: 'VPRO Soluciones',
-            role: 'Desarrollador mobile',
-            date: '2022',
-            description: 'Desarrollo de una aplicación móvil tipo Uber para una empresa de transporte local de la ciudad de Tuluá, Valle del Cauca. La aplicación permite a los usuarios solicitar un servicio de transporte y a los conductores aceptar o rechazar la solicitud.',
+            role: 'Mobile Developer',
+            date: 'oct. 2022 - jun. 2023',
+            description: 'Desarrollo y mantenimiento de la aplicación móvil, la aplicación permite a los usuarios buscar y solicitar servicios de transporte, ver la ubicación de los vehículos en tiempo real y calificar a los conductores.',
             technologies: [
+                {
+                    name: 'Dart',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
+                },
                 {
                     name: 'Flutter',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
@@ -119,22 +179,30 @@ const curriculum: Curriculum = {
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg'
                 },
                 {
-                    name: 'Node.js',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg'
+                    name: 'C Sharp',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg'
                 
                 },
                 {
                     name: 'Google Cloud',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg'
+                },
+                {
+                    name: 'MongoDB',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg'
                 }
             ],
         },
         {
-            company: 'Universidad del Valle',
-            role: 'Desarrollador mobile',
-            date: '2022',
-            description: 'Desarrollo de la aplicación móvil de la emisora Univalle Estéreo. La aplicación permite a los oyentes escuchar la emisora en vivo y acceder a los post publicados en la página web.',
+            company: 'Integra Comunicaciones',
+            role: 'Mobile Developer',
+            date: 'feb. 2022 - ago. 2022',
+            description: 'Desarrollo de una aplicación móvil para la emisora Univalle Estéreo, la aplicación permite a los usuarios escuchar la emisora en vivo y estar al tanto de las noticias y eventos de la emisora.',
             technologies: [
+                {
+                    name: 'Dart',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
+                },
                 {
                     name: 'Flutter',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
@@ -142,15 +210,19 @@ const curriculum: Curriculum = {
                 {
                     name: 'Node.js',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg'
+                },
+                {
+                    name: 'Express',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg'
                 }
             ],
             url: 'https://play.google.com/store/search?q=univalle+estereo&c=apps&hl=es'
         },
         {
             company: 'Team Dream',
-            role: 'Desarrollador - Soporte técnico',
-            date: '2020 - 2021',
-            description: 'Soporte técnico a clientes de la empresa, resolución de problemas, actualización de sitios web y migración de hosting.',
+            role: 'Soporte técnico',
+            date: 'abr. 2020 - dic. 2021',
+            description: 'Soporte técnico a clientes, extensión de plugins de WordPress y mantenimiento de sitios web.',
             technologies: [
                 {
                     name: 'WordPress',
@@ -163,6 +235,10 @@ const curriculum: Curriculum = {
                 {
                     name: 'MySQL',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg'
+                },
+                {
+                    name: 'JavaScript',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
                 }
             ],
         }
