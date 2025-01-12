@@ -302,7 +302,7 @@ const curriculum: Curriculum = {
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg'
                 }
             ],
-            code: 'https://github.scom/code3743/glassdoor-univalle'
+            code: 'https://github.com/code3743/glassdoor-univalle'
         }
     ]
 }
