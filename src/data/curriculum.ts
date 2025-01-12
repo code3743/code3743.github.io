@@ -34,7 +34,7 @@ const curriculum: Curriculum = {
             company: 'inteia',
             role: 'Ingeniero Frontend Mobile',
             date: 'actualidad',
-            description: 'Desarrollo de aplicaciones móviles, pruebas unitarias y de integración.',
+            description: 'Desarrollo de aplicaciones móviles, integración de servicios de terceros y manejo de geolocalización.',
             technologies: [
                 {
                     name: 'Dart',
@@ -43,6 +43,14 @@ const curriculum: Curriculum = {
                 {
                     name : 'Flutter',
                     icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
+                },
+                {
+                    name: 'Azure DevOps',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/azuredevops/azuredevops-original.svg'
+                },
+                {
+                    name: 'Git',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg'
                 }
             ]
         },
@@ -275,6 +283,26 @@ const curriculum: Curriculum = {
                 }
             ],
             code: 'https://github.com/code3743/social-scraper'
+        },
+        {
+            name: "Glassdoor Univalle",
+            description: "Glassdoor Univalle es una plataforma web que permite a los estudiantes de la Universidad del Valle (Colombia) compartir sus experiencias con los docentes y calificarlos.",
+            image: "/glassdoor_univalle_project.webp",
+            technologies: [
+                {
+                    name: 'Astro',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/astro/astro-original.svg'
+                },
+                {
+                    name: 'PostgreSQL',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg'
+                },
+                {
+                    name: 'Docker',
+                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg'
+                }
+            ],
+            code: 'https://github.scom/code3743/glassdoor-univalle'
         }
     ]
 }
