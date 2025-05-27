@@ -1,6 +1,6 @@
 const curriculum: Curriculum = {
     name: 'Jota López',
-    description: '+3 años de experiencia. *Desarrollador de Aplicaciones Móviles y Estudiante de Ingeniería de Sistemas*. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y el web scraping, Además de programar, también presté servicio *militar*, una experiencia que me enseñó *disciplina y trabajo en equipo.*',
+    description: '+3 años de experiencia. *Desarrollador de Aplicaciones Móviles*. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y el web scraping, Además de programar, también presté servicio *militar*, una experiencia que me enseñó *disciplina y trabajo en equipo.* En mis tiempos libres me gusta explorar lenguajes fuertemente tipados como C++, Rust y Java, por la solidez que aportan al *desarrollo de software*.',
     socialMedia: [
         {
             name: 'Instagram',
@@ -34,7 +34,7 @@ const curriculum: Curriculum = {
             company: 'inteia',
             role: 'Ingeniero Frontend Mobile',
             date: 'actualidad',
-            description: 'Desarrollo de aplicaciones móviles, integración de servicios de terceros y manejo de geolocalización.',
+            description: 'Desarrollo de aplicaciones móviles con enfoque en la integración de servicios de terceros y funcionalidades de geolocalización. También participo en la refactorización de proyectos existentes, optimización de rendimiento y mejora de la estructura del código para asegurar su escalabilidad y mantenibilidad.',
             technologies: [
                 {
                     name: 'Dart',
@@ -58,7 +58,7 @@ const curriculum: Curriculum = {
             company: 'ThreeCode',
             role: 'Ingeniero de software',
             date: 'abr. 2024 - oct. 2024',
-            description: 'Desarrollo de aplicaciones móviles y web para diferentes sectores, integración de servicios de terceros y automatización de recolección de datos',
+            description: 'Desarrollo de aplicaciones móviles para diferentes sectores, incluyendo la integración de servicios de terceros, automatización de recolección de datos y desarrollo de APIs para facilitar la comunicación entre sistemas.',
             technologies: [
                 {
                     name: 'Dart',
@@ -115,7 +115,7 @@ const curriculum: Curriculum = {
             company: 'SINERGY',
             role: 'Mobile Developer',
             date: 'feb. 2024 - sept. 2024',
-            description: 'Desarrollo y mantenimiento de una aplicación móvil para la gestión de proyectos de construcción, la aplicación permite a los usuarios crear y gestionar proyectos, asignar tareas y ver el progreso de los proyectos.',
+            description:'Desarrollador principal en proyecto de aplicación móvil para gestión de proyectos. Participé en el diseño, desarrollo e implementación de funcionalidades clave, asegurando calidad y eficiencia durante el ciclo de vida del proyecto.',
             technologies: [
                 {
                     name: 'Dart',
@@ -143,7 +143,7 @@ const curriculum: Curriculum = {
             company: 'Integra Comunicaciones',
             role: 'Mobile Developer',
             date: 'sept. 2023 - may. 2024',
-            description: 'Desarrollo de una aplicación móvil para la veveduría del Rio Dagua, la aplicación permite a los usuarios reportar problemas ambientales, muestra información sobre el rio y permite a los usuarios ver los reportes.',
+            description: 'Desarrollo de una aplicación móvil para la veeduría del Río Dagua. Responsable del diseño, implementación y mantenimiento de funcionalidades, integración de sistemas de reporte y visualización de datos.',
             technologies: [
                 {
                     name: 'Dart',
@@ -172,7 +172,7 @@ const curriculum: Curriculum = {
             company: 'VPRO Soluciones',
             role: 'Mobile Developer',
             date: 'oct. 2022 - jun. 2023',
-            description: 'Desarrollo y mantenimiento de la aplicación móvil, la aplicación permite a los usuarios buscar y solicitar servicios de transporte, ver la ubicación de los vehículos en tiempo real y calificar a los conductores.',
+            description: 'Desarrollo y mantenimiento de aplicaciones móviles como freelance, colaborando en diversos proyectos y funcionalidades según las necesidades del cliente.',
             technologies: [
                 {
                     name: 'Dart',
