@@ -1,6 +1,6 @@
 const curriculum: Curriculum = {
     name: 'Jota López',
-    description: '+3 años de experiencia. *Desarrollador de Aplicaciones Móviles*. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y el web scraping, Además de programar, también presté servicio *militar*, una experiencia que me enseñó *disciplina y trabajo en equipo.* En mis tiempos libres me gusta explorar lenguajes fuertemente tipados como C++, Rust y Java, por la solidez que aportan al *desarrollo de software*.',
+    description: '+4 años de experiencia. *Desarrollador de Aplicaciones Móviles*. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y el web scraping, Además de programar, también presté servicio *militar*, una experiencia que me enseñó *disciplina y trabajo en equipo.* En mis tiempos libres me gusta explorar lenguajes fuertemente tipados como C++, Rust y Java, por la solidez que aportan al *desarrollo de software*.',
     socialMedia: [
         {
             name: 'Instagram',
@@ -10,7 +10,7 @@ const curriculum: Curriculum = {
         {
             name: 'LinkedIn',
             icon: '/brand-linkedin.svg',
-            url: 'https://linkedin.com/in/jota-lópez-ramirez-899604231'
+            url: 'https://www.linkedin.com/in/jotalopezramirez/'
         },
         {
             name: 'GitHub',
@@ -20,7 +20,7 @@ const curriculum: Curriculum = {
         {
             name: 'Email',
             icon: '/mail.svg',
-            url: 'mailto:jota.lopez@correounivalle.edu.co'
+            url: 'mailto:jotalopez.dev@gmail.com'
         },
         {
             name: 'Twitter',
@@ -33,7 +33,7 @@ const curriculum: Curriculum = {
         {
             company: 'inteia',
             role: 'Ingeniero Frontend Mobile',
-            date: 'actualidad',
+            date: 'nov. 2024 - nov. 2025',
             description: 'Desarrollo de aplicaciones móviles con enfoque en la integración de servicios de terceros y funcionalidades de geolocalización. También participo en la refactorización de proyectos existentes, optimización de rendimiento y mejora de la estructura del código para asegurar su escalabilidad y mantenibilidad.',
             technologies: [
                 {
