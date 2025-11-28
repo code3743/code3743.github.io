@@ -32,8 +32,8 @@ const curriculum: Curriculum = {
     experiences: [
         {
             company: 'inteia',
-            role: 'Ingeniero Frontend Mobile',
-            date: 'nov. 2024 - nov. 2025',
+            role: 'Mobile Developer',
+            date: 'nov. 2024 - actualidad',
             description: 'Desarrollo de aplicaciones móviles con enfoque en la integración de servicios de terceros y funcionalidades de geolocalización. También participo en la refactorización de proyectos existentes, optimización de rendimiento y mejora de la estructura del código para asegurar su escalabilidad y mantenibilidad.',
             technologies: [
                 {
