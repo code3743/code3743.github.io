@@ -1,12 +1,8 @@
 const curriculum: Curriculum = {
     name: 'Jota López',
-    description: '+4 años de experiencia. *Desarrollador de Aplicaciones Móviles*. Aunque mi enfoque principal es el desarrollo móvil, también disfruto el desarrollo backend y el web scraping, Además de programar, también presté servicio *militar*, una experiencia que me enseñó *disciplina y trabajo en equipo.* En mis tiempos libres me gusta explorar lenguajes fuertemente tipados como C++, Rust y Java, por la solidez que aportan al *desarrollo de software*.',
+   description: '+4 años de experiencia como *Desarrollador de Software* con enfoque en *aplicaciones móviles y backend*. Especializado en desarrollo móvil usando tecnologías nativas y frameworks multiplataforma como Flutter. En backend, he trabajado en el diseño y desarrollo de APIs y servicios utilizando *C#, Spring Boot y Node.js*, integrando sistemas, automatizando procesos y construyendo arquitecturas escalables. Presté servicio *militar*, experiencia que fortaleció habilidades como la *disciplina, responsabilidad y trabajo en equipo*.',
     socialMedia: [
-        {
-            name: 'Instagram',
-            icon: '/brand-instagram.svg',
-            url: 'https://www.instagram.com/jotalopezr/'        
-        },
+       
         {
             name: 'LinkedIn',
             icon: '/brand-linkedin.svg',
@@ -21,233 +17,106 @@ const curriculum: Curriculum = {
             name: 'Email',
             icon: '/mail.svg',
             url: 'mailto:jotalopez.dev@gmail.com'
-        },
-        {
-            name: 'Twitter',
-            icon: '/brand-x.svg',
-            url: 'https://x.com/Jota3743'
         }
+       
     ],
+
     photo: 'https://avatars.githubusercontent.com/u/102370043?v=4',
+
     experiences: [
         {
             company: 'inteia',
             role: 'Mobile Developer',
             date: 'nov. 2024 - actualidad',
-            description: 'Desarrollo de aplicaciones móviles con enfoque en la integración de servicios de terceros y funcionalidades de geolocalización. También participo en la refactorización de proyectos existentes, optimización de rendimiento y mejora de la estructura del código para asegurar su escalabilidad y mantenibilidad.',
+            description: 'Desarrollo de aplicaciones móviles enfocadas en integración de servicios, geolocalización y arquitecturas escalables. Participación activa en refactorización de código, optimización de rendimiento y mejora continua de la calidad del software.',
             technologies: [
-                {
-                    name: 'Dart',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
-                },
-                {
-                    name : 'Flutter',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
-                },
-                {
-                    name: 'Azure DevOps',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/azuredevops/azuredevops-original.svg'
-                },
-                {
-                    name: 'Git',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg'
-                }
+                { name: 'Dart', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg' },
+                { name: 'Flutter', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg' },
+                { name: 'Azure DevOps', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/azuredevops/azuredevops-original.svg' },
+                { name: 'Git', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg' },
+                { name: 'Express', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg' },
+                { name: 'React', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg' }
             ]
         },
         {
             company: 'ThreeCode',
-            role: 'Ingeniero de software',
+            role: 'Software Developer',
             date: 'abr. 2024 - oct. 2024',
-            description: 'Desarrollo de aplicaciones móviles para diferentes sectores, incluyendo la integración de servicios de terceros, automatización de recolección de datos y desarrollo de APIs para facilitar la comunicación entre sistemas.',
+            description: 'Desarrollo de aplicaciones móviles utilizando Flutter y tecnologías nativas (Kotlin y Swift), integrando servicios externos y arquitecturas backend. Implementación de APIs y procesos de automatización de datos mediante Node.js y Spring Boot.',
             technologies: [
-                {
-                    name: 'Dart',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
-                },
-                {
-                    name: 'Flutter',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
-                },
-                {
-                    name: 'JavaScript',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
-                },
-                {
-                    name: 'TypeScript',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg'
-                },
-                {
-                    name: 'Node.js',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg'
-                },
-                {
-                    name: 'Firebase',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg'
-                },
-                {
-                    name: 'MongoDB',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg'
-                },
-                {
-                    name: 'PostgreSQL',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg'
-                },
-                {
-                    name: 'Google Cloud',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg'
-                },
-                {
-                    name: 'Git',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg'
-                },
-                {
-                    name: 'GitHub',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg'
-                },
-                {
-                    name: 'Azure DevOps',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/azuredevops/azuredevops-original.svg'
-                }
-
+                { name: 'Flutter', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg' },
+                { name: 'Kotlin', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg' },
+                { name: 'Swift', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg' },
+                { name: 'React Native', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg' },
+                { name: 'Node.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg' },
+                { name: 'Spring Boot', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg' },
+                { name: 'Firebase', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg' },
+                { name: 'MongoDB', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg' },
+                { name: 'PostgreSQL', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg' }
             ],
         },
         {
             company: 'SINERGY',
-            role: 'Mobile Developer',
+            role: 'Software Developer',
             date: 'feb. 2024 - sept. 2024',
-            description:'Desarrollador principal en proyecto de aplicación móvil para gestión de proyectos. Participé en el diseño, desarrollo e implementación de funcionalidades clave, asegurando calidad y eficiencia durante el ciclo de vida del proyecto.',
+            description:'Desarrollador principal en aplicación móvil para gestión de proyectos, utilizando Flutter y desarrollo nativo en Kotlin y Swift. Integración con servicios backend desarrollados en Node.js y C#, asegurando rendimiento, estabilidad y escalabilidad.',
             technologies: [
-                {
-                    name: 'Dart',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
-                },
-                {
-                    name: 'Flutter',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
-                },
-                {
-                    name: 'Kotlin',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg'
-                },
-                {
-                    name: 'Swift',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg'
-                },
-                {
-                    name: 'Firebase',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg'
-                }
+                { name: 'Flutter', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg' },
+                { name: 'Kotlin', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg' },
+                { name: 'Swift', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg' },
+                { name: 'Node.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg' },
+                { name: 'C#', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg' },
+                { name: 'Firebase', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg' }
             ],
         },
         {
             company: 'Integra Comunicaciones',
-            role: 'Mobile Developer',
+            role: 'Software Developer',
             date: 'sept. 2023 - may. 2024',
-            description: 'Desarrollo de una aplicación móvil para la veeduría del Río Dagua. Responsable del diseño, implementación y mantenimiento de funcionalidades, integración de sistemas de reporte y visualización de datos.',
+            description: 'Desarrollo de aplicación móvil para la veeduría del Río Dagua, implementando soluciones en Flutter y complementando con módulos nativos. Integración con backend en Node.js para gestión de reportes y visualización de datos.',
             technologies: [
-                {
-                    name: 'Dart',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
-                },
-                {
-                    name: 'Flutter',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
-                },
-                {
-                    name: 'Firebase',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg'
-                },
-                {
-                    name: 'Google Cloud',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg'
-                },
-                {
-                    name: 'Astro',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/astro/astro-original.svg'
-                }
-            ],
-             url: 'https://play.google.com/store/apps/details?id=app.miriodagua.mi_rio_dagua&hl=es'
+                { name: 'Flutter', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg' },
+                { name: 'Kotlin', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg' },
+                { name: 'Swift', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg' },
+                { name: 'Node.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg' },
+                { name: 'Google Cloud', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg' }
+            ]
         },
         {
             company: 'VPRO Soluciones',
             role: 'Mobile Developer',
             date: 'oct. 2022 - jun. 2023',
-            description: 'Desarrollo y mantenimiento de aplicaciones móviles como freelance, colaborando en diversos proyectos y funcionalidades según las necesidades del cliente.',
+            description: 'Desarrollo de aplicación móvil para el sistema de servicio de taxis municipales en Tuluá. Implementación de funcionalidades de geolocalización en tiempo real, gestión de usuarios y comunicación con backend.',
             technologies: [
-                {
-                    name: 'Dart',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
-                },
-                {
-                    name: 'Flutter',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
-                },
-                {
-                    name: 'Firebase',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg'
-                },
-                {
-                    name: 'C Sharp',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg'
-                
-                },
-                {
-                    name: 'Google Cloud',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg'
-                },
-                {
-                    name: 'MongoDB',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg'
-                }
+                { name: 'Flutter', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg' },
+                { name: 'Kotlin', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg' },
+                { name: 'Swift', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg' },
+                { name: 'C#', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg' },
+                { name: 'Node.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg' },
+                { name: 'MongoDB', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg' }
             ],
         },
         {
             company: 'Integra Comunicaciones',
             role: 'Mobile Developer',
             date: 'feb. 2022 - ago. 2022',
-            description: 'Desarrollo de una aplicación móvil para la emisora Univalle Estéreo, la aplicación permite a los usuarios escuchar la emisora en vivo y estar al tanto de las noticias y eventos de la emisora.',
+            description: 'Desarrollo de aplicación móvil para Univalle Estéreo utilizando Flutter. Implementación de backend con Node.js para transmisión y gestión de contenido en tiempo real.',
             technologies: [
-                {
-                    name: 'Dart',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg'
-                },
-                {
-                    name: 'Flutter',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg'
-                },
-                {
-                    name: 'Node.js',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg'
-                },
-                {
-                    name: 'Express',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg'
-                }
-            ],
-            url: 'https://play.google.com/store/search?q=univalle+estereo&c=apps&hl=es'
+                { name: 'Flutter', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg' },
+                { name: 'Node.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg' },
+                { name: 'Express', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg' }
+            ]
         },
         {
             company: 'Team Dream',
             role: 'Soporte técnico',
             date: 'abr. 2020 - dic. 2021',
-            description: 'Soporte técnico a clientes, extensión de plugins de WordPress y mantenimiento de sitios web.',
+            description: 'Soporte técnico, desarrollo y mantenimiento de sitios web. Extensión de plugins en WordPress y desarrollo backend en PHP, incluyendo gestión de bases de datos y optimización de rendimiento.',
             technologies: [
-                {
-                    name: 'WordPress',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg'
-                },
-                {
-                    name: 'PHP',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg'
-                },
-                {
-                    name: 'MySQL',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg'
-                },
-                {
-                    name: 'JavaScript',
-                    icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg'
-                }
+                { name: 'WordPress', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg' },
+                { name: 'PHP', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-plain.svg' },
+                { name: 'MySQL', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg' },
+                { name: 'JavaScript', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' }
             ],
         }
     ],
